@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/css/tether.min.css'>
+
+</head>
+<body>
+
+  <div class="buyNow d-flex justify-content-between">
+    <h1><i class="bi bi-fire"></i>Akalni<span>resturant</span></h1>
+    <button type="button" class="btn btn-success" >Buy now</button>
+  </div>
+
+
+
+  <section class="nav">
+    <nav class="navbar navbar-expand-lg  " >
+      <div class="collecter ">
+        <div class="container p-0 ">
+  
+              <div class="logo ">
+               <a href="./main.html"><img src="./images/spoon-and-a-fork-in-a-circle-640w.png " > </a>
+              </div>
+  
+               <div class="location d-flex " onclick="toggleMenu() " >
+                    <i class="bi bi-geo-alt"></i>
+                    <p style="width:115px ; "> <span>Select location </span></br>Jawaddi ludhiana...</p>
+                    <i class="bi bi-caret-down-fill "></i>
+  
+  
+               <div class="sub-menue-wrap " id="subMenu">
+                <div class="back bg-white">
+  
+                  <div class="sub-menue ">
+                    <div class="input-group ">
+                      <button class="btn" type="button" ><i class="bi bi-search"></i></button>
+                      <input type="text" class="form-control " placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  </div>
+                  </div>
+  
+                  <div class="body-sub-menu">
+  
+                    <a href="#" class="link-location">
+                      <div>
+                        <i class="bi bi-send"></i> &nbsp;New York, USA
+                      </div>
+                    </a>
+  
+                    <h6 class="bg-light header">Choose your country</h6>
+                      
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">Afghanistan</label>
+                        <input class="form-check-input me-1 " type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">India</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">USA</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">Australia</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">Japan</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">China</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                  </div>
+               </div>
+              </div>
+               
+               </div>
+  
+        </div>
+        
+        <div class="container p-0" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link active "aria-current="page" href="./searchPage.html"><i class="bi bi-search bii "></i> &nbsp;Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active "aria-current="page" href="./ofersPage.html"><button type="button" class="redBtn"><i class="bi bi-vinyl"></i>&nbsp;Offers</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active "aria-current="page" href="signInPage.html"><i class="bi bi-person "></i> &nbsp;Sign in</a>
+            </li>
+            <li class="nav-item nav-item-menu " onclick="togglMnu()">
+              <a class="nav-link active "  aria-current="page" href="#"> <img src="./images/girl-names-that-start-with-c-zz-221027-768b76.webp" class="nav-item-img" alt=""> &nbsp;Hi  Osahan&nbsp;<i class="bi bi-caret-down-fill "></i></a>
+              <div class="account " id="subMnu">
+                <div class="menue-group  ">
+                <div  class="sub-account">
+                 <a href="./myAccount.html">My account</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./deliverySupportPage.html">Delivery support</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./contactUsPage.html">Contact us</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./termOfUsePage.html">Term of user</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./privacyPolicyPage.html">Privacy policy</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./signInPage.html">Logout</a>
+                </div>
+              </div>
+            </div>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active " aria-current="page" href="./deliveryAddressPage.html"><i class="bi bi-cart2  "></i> &nbsp;Cart</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active  d-flex justify-content-center align-content-center" aria-current="page" href="#">
+                <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                  <span class="hamb-top"></span>
+                  <span class="hamb-middle"></span>
+                  <span class="hamb-bottom"></span>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section> 
+
+<section class="substitute-Nav">
+  <div class="sub-menue ">
+    <div class="header-substitute-Nav d-flex align-items-center ps-0">
+      <h4>Oshan Bar</h4>
+      <div class="d-flex justify-content-end ">
+        <li class="nav-item ">
+          <a class="nav-link active  d-flex justify-content-center align-content-center" aria-current="page" href="#">
+            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+              <span class="hamb-top"></span>
+              <span class="hamb-middle"></span>
+              <span class="hamb-bottom"></span>
+            </button>
+          </a>
+        </li>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="bar bg-danger" id="wrapper">
+    
+  <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+      <ul class="nav sidebar-nav">
+       <div class="sidebar-header">
+         <div class="sidebar-brand">
+           Askbootstrab
+         </div>
+       </div>
+         <li><a href="./main.html"><img src="./images/home-black.png"> Homepage</a></li>
+         <li><a href="myOrderPage.html"><img src="./images/menue.png" alt=""> My Orders</a></li>
+         <li class="dropdown">
+           <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"><img src="./images/pen.png" alt="">Authentication <span class="caret "></span></a>
+             <ul class="dropdown-menu animated fadeInLeft" role="menu">
+               <li><a href="./signInPage.html">Login</a></li>
+               <li><a href="./signUpPage.html">Register</a></li>
+               <li><a href="./forgotPasswordPage.html">Forgot Password</a></li>
+               <li><a href="./verificationPage.html">Verification</a></li>
+               <li><a href="./locationPage.html">Location</a></li>
+             </ul>
+           </li>
+         <li><a href="./favoritePage.html"><img src="./images/heart.png" alt=""> Favorites</a></li>
+         <li><a href="./trendingPage.html"><img src="./images/increase.png" alt=""> trending</a></li>
+         <li><a href="./mostPopularPage.html"><img src="./images/popular.png" alt=""> Most Popular</a></li>
+         <li><a href="./deliveryAddressPage.html"><img src="./images/menue.png" alt=""> Checkout</a></li>
+         <li><a href="./successfullPage.html"><img src="./images/successfal.png" alt=""> Successful</a></li>
+         <li><a href="./liveMapPage.html"><img src="./images/location.png" alt=""> Live Map</a></li>
+         <li class="dropdown">
+           <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"><img src="./images/person.png" alt=""> Profile <span class="caret"></span></a>
+             <ul class="dropdown-menu animated fadeInLeft" role="menu">
+               <li><a href="./myAccount.html">Profile</a></li>
+               <li><a href="./deliverySupportPage.html">Delivery Support</a></li>
+               <li><a href="./contactUsPage.html">Contact Us</a></li>
+               <li><a href="./termOfUsePage.html">Terms of use</a></li>
+               <li><a href="./privacyPolicyPage.html">Privacy & Policy</a></li>
+             </ul>
+           </li>
+           <li class="dropdown">
+             <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"><img src="./images/traingle.png" alt=""> Error <span class="caret"></span></a>
+               <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                 <li><a href="./notFoundPage.html">Not Found</a></li>
+                 <li><a href="./MaintencePage.html">Maintence</a></li>
+                 <li><a href="./comingSoonPage.html">Coming Soon</a></li>
+               </ul>
+             </li>
+             <li class="dropdown">
+               <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"><img src="./images/link.png" alt=""> Navigation Link Example <span class="caret"></span></a>
+                 <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <li><a href="#pictures">Link Example 1</a></li>
+                   <li><a href="#pictures">Link Example 2</a></li>
+                   <li><a href="#videos">Link Example 3</a></li>
+                   <li><a href="#books">Link Example 4</a></li>
+                 </ul>
+               </li>
+         </ul>
+ </nav>
+
+ <nav class="navbar navbar-inverse fixed-bottom " id="sidebar-wrapper-footer" role="navigation">
+   <div class="sidebar-footer">
+     <div class="sidebar-brand-footer btn-group">
+       <button type="button" class="btn btn-light text-center d-block">
+         <img src="./images/home-black.png" alt="">
+         <p>Home</p>
+       </button>
+
+       <button type="button" class="btn btn-light">
+         <img src="./images/message.png" alt="">
+         <p>FAQ</p>
+       </button>
+
+       <button type="button" class="btn btn-light">
+         <img src="./images/phone.png" alt="">
+         <p>Help</p>
+       </button>
+     </div>
+   </div>
+     </nav>
+</div>
+     
+
+<!--------------------offers-caption-------------->
+<Section class="offers-caption menue-caption w-100">
+    <div class="collecter ">
+        <div class="cover">
+            <div class="caption ">
+                <h2>Conrad Chicago Restaurant</h2>
+                <p class="offers-p">963 Madyson Drive Suite 679</p>
+                <p style="font-size: 11px;">
+                    <i class="bi bi-star text-warning"></i>&nbsp;
+                    <i class="bi bi-star text-warning"></i>&nbsp;
+                    <i class="bi bi-star text-warning"></i>&nbsp;
+                    <i class="bi bi-star text-warning"></i>&nbsp;
+                    <i class="bi bi-star"></i>
+                    &nbsp; (245 Reviews)
+                </p>
+                <div class="d-flex justify-content-between w-50 h-25">
+                    <div>
+                        <p class="offers-p2"> 
+                            Delivery <span class="offers-p text-white"><br>Free</span>
+                        </p>
+                    </div>
+                    <div >
+                        <p class="offers-p2"> 
+                            Open time <span class="offers-p text-white"><br> 8:00 AM</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menue-caption-div" style="height: 170px; width: 285px;">
+            <img src="./images/noodle.webp" style="height: 90%; width: 100%; border-radius: 10px;" alt="">
+            </div>
+        </div>
+
+        <div class="cover2 ps-3 pe-3">
+            <div class="icons d-flex">
+                <a href="" class="bi-icon text-center"><img src="./images/upload.png" style="width: 50%; height: 50%;" alt=""></a> &nbsp;&nbsp;
+                <a href="" class="bi-icon text-center"><img src="./images/star.png" style="width: 50%; height: 50%;" alt=""></a>&nbsp;&nbsp;
+                <a href="" class="bi-icon text-center"><img src="./images/location.png" style="width: 50%; height: 50%;" alt=""></a>&nbsp;&nbsp;
+            </div>
+            <div  class="btn-offers">
+                <a href="./contactUsPage.html"><button type="button" class="btn btn-outline-light btnOfer" >Content</button></a>
+            </div>
+        </div>
+</div>
+
+</Section>
+
+
+<!------------------------view_All------------------------->
+<section class="view_All menue_view_All" style="padding-top: 30px;">
+        <div class="collecter">
+            
+            <div class="links pb-2 pt-3" style=" height: max-content;">
+                <P style="font-size: small; margin-bottom: 0;">FEATURED ITEMS</P>
+            </div>
+            
+            <div class="tistemonial-Views ">
+            
+                <button type="button" class="slider-btn btn1  " onclick="prev2()">
+                    <i class="bi bi-chevron-left" aria-hidden="true"></i>
+                </button>
+                <button type="button" class="slider-btn btn2 " onclick="next2()">
+                    <i class="bi bi-chevron-right" aria-hidden="true"></i>
+                </button>
+                
+                    
+                <div class="slider-wrap">
+                    <div class="slider-main " id="slider-main-Views">
+                    
+                        <div class="item-Views"> 
+                            <div class="up-part">
+                                <img src="./images/noodle.webp" alt="">
+                                <div class="text-views ">
+                                    <p>Promoted</p>
+                                    <button type="button" class="views-btn  "  >
+                                    <i class="bi bi-heart" aria-hidden="true"></i>
+                                </div>
+                                <div class="rate-views">
+                                <i class="bi bi-star"></i> &nbsp;3.1 (300+)
+                                </div>
+                            </div>
+                            <div class="down-part">
+                                <a href="#">Famous Dave's Bar-B-Que</a>
+                                <p>Vegetarian <i class="bi bi-circle-fill"></i> Indian <i class="bi bi-circle-fill"></i> Pure veg</p>
+                                <div class="time">
+                                    <p style=" margin-left: 0%; width: max-content;"> $350 FOR TWO </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-Views"> 
+                            <div class="up-part">
+                                <img src="./images/salad.jpg" alt="">
+                                <div class="text-views ">
+                                    <p>Promoted</p>
+                                    <button type="button" class="views-btn  "  >
+                                    <i class="bi bi-heart" aria-hidden="true"></i>
+                                </div>
+                                <div class="rate-views">
+                                <i class="bi bi-star"></i> &nbsp;3.1 (300+)
+                                </div>
+                            </div>
+                            <div class="down-part">
+                                <a href="#">Famous Dave's Bar-B-Que</a>
+                                <p>Vegetarian <i class="bi bi-circle-fill"></i> Indian <i class="bi bi-circle-fill"></i> Pure veg</p>
+                                <div class="time">
+                                    <p style="background-color: #fff; margin-left: 0%; width: max-content;"> $350 FOR TWO </p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="item-Views"> 
+                            <div class="up-part">
+                                <img src="./images/beef.jpg" alt="">
+                                <div class="text-views ">
+                                    <p>Promoted</p>
+                                    <button type="button" class="views-btn  "  >
+                                    <i class="bi bi-heart" aria-hidden="true"></i>
+                                </div>
+                                <div class="rate-views">
+                                <i class="bi bi-star"></i> &nbsp;3.1 (300+)
+                                </div>
+                            </div>
+                            <div class="down-part">
+                                <a href="#">Famous Dave's Bar-B-Que</a>
+                                <p>Vegetarian <i class="bi bi-circle-fill"></i> Indian <i class="bi bi-circle-fill"></i> Pure veg</p>
+                                <div class="time">
+                                    <p style="background-color: #fff; margin-left: 0%; width: max-content;"> $350 FOR TWO </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-Views"> 
+                            <div class="up-part">
+                                <img src="./images/salad.jpg" alt="">
+                                <div class="text-views ">
+                                    <p>Promoted</p>
+                                    <button type="button" class="views-btn  "  >
+                                    <i class="bi bi-heart" aria-hidden="true"></i>
+                                </div>
+                                <div class="rate-views">
+                                <i class="bi bi-star"></i> &nbsp;3.1 (300+)
+                                </div>
+                            </div>
+                            <div class="down-part">
+                                <a href="#">Famous Dave's Bar-B-Que</a>
+                                <p>Vegetarian <i class="bi bi-circle-fill"></i> Indian <i class="bi bi-circle-fill"></i> Pure veg</p>
+                                <div class="time">
+                                    <p style="background-color: #fff; margin-left: 0%; width: max-content;"> $350 FOR TWO </p>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            
+            </div>
+        
+        </div>
+    </section>
+  
+
+<!-------------------------Menu----------------------------->
+<section class="menu">
+    <div class="collecter ">
+
+        <div class="right-side ">
+
+            <ul class="list-group bg-info"style="border-top-right-radius: 5px; border-top-left-radius: 5px; ">
+                <li class=" list-unstyled header " aria-disabled="true">Menu</li>
+                <li class="list-unstyled header bg-light ">Quick Bites <span>3 ITEMS</span></li>
+                <li class=" bites ">
+                    <div class="pill ">
+                        <h6><p></p></h6> 
+                        <div class="content">
+                           Chicken Tikka Sub <br> <span>$250</span>
+                        </div>
+                    </div>
+
+                    <div  class="btn-Menu ">
+                        <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                    </div>
+                </li>
+
+                <li class="bites"> 
+                    <div class="pill">
+                        <h6><p></p></h6>  
+                        <div class="content">
+                            cheese corn Roll <span class="spn-views">BEST SELLER</span> <br> <span>$600</span>
+                        </div>
+                    </div>
+
+                    <div  class="btn-Menu ">
+                        <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                    </div>
+                </li>
+
+                <li class="bites">
+                    <div class="pill">
+                        <h6><p></p></h6> 
+                        <div class="content">
+                            Chicken Tikka Sub <span class="spn-views">Non veg</span><br> <span>$250</span>
+                        </div>
+                    </div>
+
+                    <div  class="btn-Menu ">
+                        <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="list-group">
+            <li class="list-unstyled header bg-light ">Starters <span>3 ITEMS</span></li>
+            <li class=" bites">
+                <div class="pill">
+                    <div class="img">
+                        <img src="./images/tomato-soup.jpg" style="height: 100%; width: 100%;" alt="" srcset="">
+                    </div> 
+                    <div class="content">
+                        Chicken Tikka Sub <br> <span>$250</span>
+                    </div>
+                </div>
+
+                <div  class="btn-Menu ">
+                    <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                </div>
+            </li>
+
+            <li class=" bites"> 
+                <div class="pill">
+                    <div class="img">
+                        <img src="./images/spaghetti.jpeg" style="height: 100%; width: 100%;" alt="" srcset="">
+                    </div>   
+                    <div class="content">
+                        cheese corn Roll <span class="spn-views">BEST SELLER</span> <br> <span>$600</span>
+                    </div>
+                </div>
+
+                <div  class="btn-Menu ">
+                    <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                </div>
+            </li>
+
+            <li class="bites">
+                <div class="pill">
+                    <div class="img">
+                        <img src="./images/seafood-paella.webp" style="height: 100%; width: 100%;" alt="" srcset="">
+                    </div> 
+                    <div class="content">
+                        Chicken Tikka Sub <span class="spn-views pureVeg">Pure veg</span><br> <span>$250</span>
+                    </div>
+                </div>
+
+                <div  class="btn-Menu ">
+                    <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                </div>
+            </li>
+            </ul>
+
+            <ul class="list-group" style="border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">
+                <li class="list-unstyled header bg-light ">Soups <span>8 ITEMS</span></li>
+
+                <li class=" bites">
+                    <div class="pill">
+                        <h6><p></p></h6> 
+                        <div class="content">
+                           Chicken Tikka Sub <br> <span>$250</span>
+                        </div>
+                    </div>
+
+                    <div  class="btn-Menu ">
+                        <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                    </div>
+                </li>
+
+                <li class=" bites"> 
+                    <div class="pill">
+                        <h6><p></p></h6>  
+                        <div class="content">
+                            cheese corn Roll <span class="spn-views">BEST SELLER</span> <br> <span>$600</span>
+                        </div>
+                    </div>
+
+                    <div  class="btn-Menu ">
+                        <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                    </div>
+                </li>
+
+                <li class="bites">
+                    <div class="pill">
+                        <h6 class="pureVegH6"><p class="pureVeg"></p></h6> 
+                        <div class="content">
+                           Chicken Tikka Sub <span class="spn-views pureVeg">Pure veg</span> <br> <span>$250</span>
+                        </div>
+                    </div>
+
+                    <div  class="btn-Menu ">
+                        <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                    </div>
+                </li>
+
+                <li class=" bites">
+                    <div class="pill">
+                        <h6 class="pureVegH6"><p class="pureVeg"></p></h6>  
+                        <div class="content">
+                            Chicken Tikka Sub <span class="spn-views">Non veg</span><br> <span>$250</span>
+                        </div>
+                    </div>
+
+                    <div  class="btn-Menu ">
+                        <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                    </div>
+                </li>
+
+                <li class=" bites"> 
+                    <div class="pill">
+                        <h6><p></p></h6>  
+                        <div class="content">
+                            cheese corn Roll <span class="spn-views">BEST SELLER</span> <br> <span>$600</span>
+                        </div>
+                    </div>
+
+                    <div  class="btn-Menu ">
+                        <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                    </div>
+                </li>
+
+                <li class="bites">
+                    <div class="pill">
+                        <h6 class="pureVegH6"><p class="pureVeg"></p></h6> 
+                        <div class="content">
+                            Chicken Tikka Sub <span class="spn-views pureVeg">Pure veg</span> <br> <span>$250</span>
+                        </div>
+                    </div>
+
+                    <div  class="btn-Menu ">
+                        <button type="button" class="btn btn-outline-secondary btnMenu" >ADD</button>
+                    </div>
+                </li>
+
+            </ul>
+
+            <div class="rate bites ">
+                <div class="list-unstyled header  ">Rate this Place </div>
+                <div class="list-unstyled header" style="font-size: 14px;font-weight: 800; text-align: end;">
+                    <i class="bi bi-star text-warning"></i>
+                    <i class="bi bi-star text-warning"></i>
+                    <i class="bi bi-star text-warning"></i>
+                    <i class="bi bi-star text-warning"></i>
+                    <i class="bi bi-star"></i>
+                    &nbsp;334
+                </div>
+            </div>
+
+            <div class="rate">
+                <div class=" header">Rate and Reviews<br><p class="spn-rate">Rated 3.5 out of 5</p></div>
+
+                <div class="rate-review mt-4">
+                        <div class="list-group">
+                          <div>
+                            <div class="fw-light ">5 stars</div>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 56%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <div >
+                            <div class="fw-light text-end ">65 %</div>
+                          </div>
+                        </div>
+
+                        <div class="list-group">
+                            <div>
+                              <div class="fw-light ">4 stars</div>
+                            </div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 23%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div >
+                              <div class="fw-light text-end ">23 %</div>
+                            </div>
+                          </div>
+
+                          <div class="list-group">
+                            <div>
+                              <div class="fw-light ">3 stars</div>
+                            </div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 11%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div >
+                              <div class="fw-light text-end ">11 %</div>
+                            </div>
+                          </div>
+
+                          <div class="list-group">
+                            <div>
+                              <div class="fw-light ">2 stars</div>
+                            </div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 6%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div >
+                              <div class="fw-light text-end ">6 %</div>
+                            </div>
+                          </div>
+
+                          <div class="list-group">
+                            <div>
+                              <div class="fw-light ">1 stars</div>
+                            </div>
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 4%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div >
+                              <div class="fw-light text-end ">4 %</div>
+                            </div>
+                          </div>
+                </div >
+
+                <div style="margin-top: 25px;">
+                    <button type="button" class="redBtn w-100">Rate and Review</button></a>
+                </div>
+            </div>
+
+            <div class="rate p-0">
+                    <li class="list-group ">
+                        <div class="links ">
+                            <div class="header">All Rating and Reviews</div>
+                            <a href="#">Top Rated</a>
+                        </div>
+                        <div class="pill">
+                            <div class="img">
+                                <img src="./images/tomato-soup.jpg" style="height: 100%; width: 100%;" alt="" srcset="">
+                            </div> 
+                            <div class="content me-0">
+                                <div class=" d-flex">
+                                        <div>
+                                        <a href="">Trump</a><br> <p class="spn-rate">Tue,20 Mar 2020</p> 
+                                        </div>
+                                        <div style="font-size: 14px;font-weight: 800; text-align: end;">
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                </div>
+
+                                <p class="spn-rate text-dark mt-4 mb-3">Placeholder com is easy to remember, and easy to use. Just grab their image URL, modify with your size parameters, and voila!</p>
+
+                                <div  class="react-btn d-flex">
+                                    <button type="button" class="btn btn-outline-danger me-1 " ><i class="bi bi-hand-thumbs-up"></i> 856M</button>
+                                    <button type="button" class="btn btn-outline-danger " ><i class="bi bi-hand-thumbs-down"></i> 158M</button>
+
+                                    <div class="reacted-people ms-2">
+                                        <img src="./images/girl1.jpg" alt="">
+                                        <img src="./images/girl2.jpg" alt="">
+                                        <img src="./images/girl3.jpg" alt="">
+                                        <img src="./images/girl4.jpg" alt="">
+                                    </div>
+                                </div>
+
+                            </div> 
+                        </div>
+                    </li>
+
+                    <li class=" list-unstyled">
+                        <div class="pill">
+                            <div class="img">
+                                <img src="./images/tomato-soup.jpg" style="height: 100%; width: 100%;" alt="" srcset="">
+                            </div> 
+                            <div class="content me-0">
+                                <div class=" d-flex">
+                                        <div>
+                                        <a href="">Trump</a><br> <p class="spn-rate">Tue,20 Mar 2020</p> 
+                                        </div>
+                                        <div class="list-unstyled" style="font-size: 14px;font-weight: 800; text-align: end;">
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                </div>
+
+                                <p class="spn-rate text-dark mt-4 mb-3">Placeholder com is easy to remember, and easy to use. Just grab their image URL, modify with your size parameters, and voila!</p>
+
+                                <div  class="react-btn d-flex">
+                                    <button type="button" class="btn btn-outline-danger me-1 " ><i class="bi bi-hand-thumbs-up"></i> 856M</button>
+                                    <button type="button" class="btn btn-outline-danger " ><i class="bi bi-hand-thumbs-down"></i> 158M</button>
+
+                                    <div class="reacted-people ms-2">
+                                        <img src="./images/girl1.jpg" alt="">
+                                        <img src="./images/girl2.jpg" alt="">
+                                        <img src="./images/girl3.jpg" alt="">
+                                        <img src="./images/girl4.jpg" alt="">
+                                    </div>
+                                </div>
+
+                            </div> 
+                        </div>
+                    </li>
+
+                    <div class=" links  d-flex justify-content-center" style="height: 50px;">
+                        <a href="#" class="a-link">See All Reviews</a>
+                    </div>
+            </div>
+
+
+            <div class="rate bg-white ">
+            <div class=" header">Leave Comments</div>
+            <div class=" bites mt-3"  style="font-size: 12px; font-weight: 300; ">
+                <span class="text-dark">Rate this Place </span>
+                <div style="text-align: end;">
+                    <i class="bi bi-star text-warning"></i>
+                    <i class="bi bi-star text-warning"></i>
+                    <i class="bi bi-star text-warning"></i>
+                    <i class="bi bi-star text-warning"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+            </div>
+            <div class="form-floating mt-3">
+                <span class="text-dark ">Your Comment</span>
+                <textarea class="form-control mt-2" placeholder="Leave a comment here" id="floatingTextarea2" style="height:55px"></textarea>
+              </div>
+
+            <div style="margin-top: 15px;">
+                <button type="button" class="redBtn w-100">Submit Comment</button></a>
+            </div>
+            </div>
+    </div>
+
+    <!-----------------------------------left-side------------------------------------->
+    <div class="right-side" style="height: max-content;">
+        <ul class="list-group" style="border-top-right-radius: 5px; border-top-left-radius: 5px;">
+            <li class="list-group-item ">
+                    <div class="pill">
+                        <div class="img">
+                            <img src="./images/seafood-paella.webp" style="height: 100%; width: 100%;" alt="" srcset="">
+                        </div> 
+                        <div class="content" style="font-size: 16px;">
+                            Spicy Hut Indian Restaurant <br> 
+                            <span style="font-size: 11px;">
+                                <a href="" class="bi-icon text-center"><img src="./images/location.png" style="width: 13px; height: 11px;" alt=""></a>
+                                2036 2ND AVE, NEW YORK, NY 10029
+                            </span>
+                        </div>
+                    </div>
+            </li>
+  
+            <li class=" bites swears"> 
+                <div class="pill">
+                    <h6><p></p></h6>  
+                    <div class="content text-secondary">
+                        cheese corn Roll </span>
+                    </div>
+                </div>
+                <div style="display: flex; ">
+                    <button type="button" class="btn btn-outline-secondary ">-</button>
+                    <button type="button" class="btn btn-secondary " style=" font-size: 13px;">2</button>
+                    <button type="button" class="btn btn-outline-secondary">+</button>
+                </div>
+                <div style=" font-size: 12px; ">
+                   <span>$628</span>
+                </div>
+            </li>
+  
+  
+            <li class=" bites swears"> 
+                <div class="pill">
+                    <h6><p></p></h6>  
+                    <div class="content text-secondary">
+                        cheese corn Roll </span>
+                    </div>
+                </div>
+                <div style="display: flex; ">
+                    <button type="button" class="btn btn-outline-secondary ">-</button>
+                    <button type="button" class="btn btn-secondary " style=" font-size: 13px;">2</button>
+                    <button type="button" class="btn btn-outline-secondary">+</button>
+                </div>
+                <div style=" font-size: 12px; ">
+                   <span>$628</span>
+                </div>
+            </li>
+  
+            <li class="bites swears"> 
+                <div class="pill">
+                    <h6><p></p></h6>  
+                    <div class="content text-secondary">
+                        cheese corn Roll </span>
+                    </div>
+                </div>
+                <div style="display: flex; ">
+                    <button type="button" class="btn btn-outline-secondary ">-</button>
+                    <button type="button" class="btn btn-secondary " style=" font-size: 13px;">2</button>
+                    <button type="button" class="btn btn-outline-secondary">+</button>
+                </div>
+                <div style=" font-size: 12px; ">
+                   <span>$628</span>
+                </div>
+            </li>
+  
+            <li class=" bites swears"> 
+                <div class="pill">
+                    <h6 class="pureVegH6"><p class="pureVeg"></p></h6> 
+                    <div class="content text-secondary">
+                        cheese corn Roll </span>
+                    </div>
+                </div>
+                <div style="display: flex; ">
+                    <button type="button" class="btn btn-outline-secondary ">-</button>
+                    <button type="button" class="btn btn-secondary " style=" font-size: 13px;">2</button>
+                    <button type="button" class="btn btn-outline-secondary">+</button>
+                </div>
+                <div style=" font-size: 12px; ">
+                   <span>$628</span>
+                </div>
+            </li>
+  
+            <li class=" bites swears"> 
+                <div class="pill">
+                    <h6 class="pureVegH6"><p class="pureVeg"></p></h6> 
+                    <div class="content text-secondary">
+                        cheese corn Roll </span>
+                    </div>
+                </div>
+                <div style="display: flex; ">
+                    <button type="button" class="btn btn-outline-secondary ">-</button>
+                    <button type="button" class="btn btn-secondary " style=" font-size: 13px;">2</button>
+                    <button type="button" class="btn btn-outline-secondary">+</button>
+                </div>
+                <div style=" font-size: 12px; ">
+                   <span>$628</span>
+                </div>
+            </li>
+  
+  
+        </ul>
+  
+        <ul class="list-group">
+            <li class="list-group-item ">
+                <div class="mb-3 input-promo-code" >
+                    <input type="text" class="form-control" id="button-addon1" placeholder="Enter Promo Code">
+                    <button type="button" id="button-addon2" class="btn btn-danger btn-code redBtn">% APPLY</button>
+                </div>
+                <div class="d-flex " style="height: 50px; ">
+                    <span class="input-group-text iconc " style="width: max-content"><i class="bi bi-chat-left"></i></span>
+                    <textarea class="form-control " style="font-size: 12px;" placeholder="Any Suggestions? We will pass it on..." aria-label="With textarea"></textarea>
+                </div>
+            </li>
+  
+        </ul>
+  
+         <ul class="list-group ">
+            <li class="list-group-item "> 
+                 <div class="total-pay" >
+                    <div class=" text-secondary ">
+                        Item Total
+                    </div>
+                    
+                    <div style=" font-size: 13px;text-align: end;">
+                       <span>$3140</span>
+                    </div>
+                </div>
+  
+                <div class="total-pay" >
+                    <div class=" text-secondary ">
+                        Resturant Charges
+                    </div>
+                    
+                    <div style=" font-size: 13px;text-align: end;">
+                       <span>$62.8</span>
+                    </div>
+                </div>
+  
+                <div class="total-pay" >
+                    <div class=" text-secondary ">
+                        Delivery Fee
+                    </div>
+                    
+                    <div style=" font-size: 13px;text-align: end;">
+                       <span>$10</span>
+                    </div>
+                </div>
+  
+                <div class="total-pay" >
+                    <div class=" " style="color:rgb(2, 180, 2);">
+                        Total Discount
+                    </div>
+                    
+                    <div style=" font-size: 13px;text-align: end;">
+                       <span style="color:rgb(2, 180, 2);">$1884</span>
+                    </div>
+                </div>
+            <hr>
+                <div class="To-pay" >
+                    <div >
+                        TO PAY
+                    </div>
+                    
+                    <div class="text-end ">
+                       <span class="text-black">$1329</span>
+                    </div>
+                </div>
+             </li>
+  
+             <li class="list-group-item ">                   
+                <button type="button" class="btn btn-success btn-buy">PAY $1329<i class="bi bi-arrow-right"></i></button>
+             </li>
+        </ul>
+    </div>
+</section>
+
+<!------------------------footer----------------->
+<section class="footer">
+  <div class="container-footer">
+    <div class="row-footer">
+
+       <div class="col-footer" style="grid-column: span 2;">
+        <div style=" width: 65px;">
+        <img src="./images/spoon-and-a-fork-in-a-circle-640w.png " class="logo bg-white"> 
+        </div>
+        <Div class="content-footer ">
+        <h5>About Us</h5>
+        <p>some short text about company like you might <br> remember the Dell computer commercials in <br> which a youth report</p>
+        <span>
+          <a href="" ><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-youtube"></i></a>
+          <a href=""><i class="bi bi-twitter"></i></a>
+        </span>
+        </Div>
+       </div>
+
+       <div class="col-footer">
+        <Div class="content-footer ">
+          <h5>Error Pages</h5>
+          <a href="./notFoundPage.html">Not found</a><br>
+          <a href="./MaintencePage.html">Maintence</a><br>
+          <a href="./comingSoonPage.html">Coming Soon</a>
+          </Div>
+       </div>
+
+       <div class="col-footer">
+        <Div class="content-footer ">
+          <h5>Services</h5>
+          <a href="./deliverySupportPage.html">Delivery Support</a><br>
+          <a href="./contactUsPage.html">Contact Us</a><br>
+          <a href="./termOfUsePage.html">Terms of use</a><br>
+          <a href="./privacyPolicyPage.html">Privace policy</a>
+          </Div>
+       </div>
+
+       <div class="col-footer">
+        <Div class="content-footer ">
+          <h5>For users</h5>
+          <a href="./signInPage.html">User login</a><br>
+          <a href="./signUpPage.html">User register</a><br>
+          <a href="/forgotPasswordPage.html">Forgot Password</a><br>
+          <a href="./myAccount.html">Account Setting</a>
+          </Div>
+       </div>
+
+       <div class="col-footer">
+        <Div class="content-footer ">
+          <h5>More Pages</h5>
+          <a href="./trendingPage.html">Trending</a><br>
+          <a href="./mostPopularPage.html">Most Popular</a><br>
+          <a href="./menuePage.html">Resturant Details</a><br>
+          <a href="./favoritePage.html">Favoraits</a>
+          </Div>
+       </div>
+    </div>
+
+    <hr style="color: rgb(119, 118, 118);">
+
+    <div class="row-footer">
+
+      <div class="col-footer">
+        <Div class="content-footer ">
+          <h5>Countries</h5>
+          <a href="#">India</a><br>
+          <a href="#">Indonesia</a><br>
+          <a href="#">Ireland</a><br>
+          <a href="#">Italy</a><br>
+          <a href="#">Lebanon</a>
+          </Div>
+      </div>
+
+      <div class="col-footer">
+          <Div class="content-footer ">
+            <br>
+          <a href="#">Malaysia</a><br>
+          <a href="#">New Zelanda</a><br>
+          <a href="#">Philippines</a><br>
+          <a href="#">Poland</a><br>
+          <a href="#">Partugal</a>
+          </Div>
+      </div>
+
+        <div class="col-footer">
+          <Div class="content-footer ">
+            <br>
+          <a href="#">Australia</a><br>
+          <a href="#">Brasil</a><br>
+          <a href="#">Canada</a><br>
+          <a href="#">Chile</a><br>
+          <a href="#">Czech Republic</a>
+        </Div>
+        </div>
+
+        <div class="col-footer">
+          <Div class="content-footer ">
+            <br>
+          <a href="#">turkey</i></a><br>
+          <a href="#">UAE</a><br>
+          <a href="#">United Kingdom</a><br>
+          <a href="#">United States</a><br>
+          <a href="#">Sri Lanka</a>
+        </Div>
+        </div>
+
+          <div class="col-footer">
+            <Div class="content-footer ">
+              <br>
+            <a href="#">Qatar</i></a><br>
+            <a href="#">Singapora</a><br>
+            <a href="#">Slovakia</a><br>
+            <a href="#">South Africa</a><br>
+            <a href="#">Green Land</a>
+          </Div>
+          </div>
+
+            <div class="col-footer">
+              <Div class="content-footer ">
+                <br>
+                <a href="#">Pakistan</i></a><br>
+                <a href="#">Bangladesh</a><br>
+                <a href="#">Bhutaan</a>
+                <a href="#">Nepal</a>
+             </Div>
+           </div>
+          </div>
+  </div>
+<div class="rights">
+  <div class="container-rights">
+    <p><i class="bi bi-c-circle"></i> &nbsp; 2020 Company All rights reserved</p>
+    <div class="app-stors">
+
+      <div class="app-btn ">
+       <a href="#"> <img  src="./images/App_Store.png" alt=""></a>
+      </div>
+
+      <div class="app-btn">
+       <a href="#"><img  src="./images/google-play.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<section class="simplefooter">
+  <div class="right d-flex" >
+    <a href="./main.html">
+      <button type="button" class="bg-light">
+        <img src="./images/home-red.png" alt="">
+        <p class="text-danger" style="font-size: 12px;">Home</p>
+      </button>
+    </a>
+     
+    <a href="./trendingPage.html">
+      <button type="button">
+        <img src="./images/location.png" alt="">
+        <p>Trending</p>
+      </button>
+    </a>
+  </div>
+
+  <div class="middle ">
+    <a href="./deliveryAddressPage.html">
+      <button type="button" >
+        <img src="./images/shopping-card.png" style="width: 35px; height: 35px;"  alt="">
+      </button>
+    </a>
+  </div>
+
+  <div class="left  d-flex">
+    <a href="./favoritePage.html">
+      <button type="button" >
+        <img src="./images/heart.png"  alt="">
+        <p>Favorite</p>
+      </button>
+    </a>
+
+    <a href="./myAccount.html">
+      <button type="button" >
+        <img src="./images/person.png" alt="">
+        <p>Profile</p>
+      </button>
+    </a>
+</div>
+</section>
+  
+    
+<script >
+     var sliderMainViews= document.getElementById ("slider-main-Views");
+  var itemViews = sliderMainViews.getElementsByClassName("item-Views");
+  function next2(){
+    sliderMainViews.append(itemViews[0]);
+  }
+  function prev2(){
+    sliderMainViews.prepend(itemViews[itemViews.length-1]);
+  }
+</script>
+
+
+<script src="./js/script.js"></script>
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js'></script>
+<script  src="./script.js"></script>
+
+
+</script>
+</body>
+</html>

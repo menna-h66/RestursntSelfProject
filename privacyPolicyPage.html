@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/css/tether.min.css'>
+
+</head>
+<body>
+  <div class="buyNow d-flex justify-content-between">
+    <h1><i class="bi bi-fire"></i>Akalni<span>resturant</span></h1>
+    <button type="button" class="btn btn-success" >Buy now</button>
+  </div>
+
+
+  <section class="nav">
+    <nav class="navbar navbar-expand-lg  " >
+      <div class="collecter ">
+        <div class="container p-0 ">
+  
+              <div class="logo ">
+               <a href="./main.html"><img src="./images/spoon-and-a-fork-in-a-circle-640w.png " > </a>
+              </div>
+  
+               <div class="location d-flex " onclick="toggleMenu() " >
+                    <i class="bi bi-geo-alt"></i>
+                    <p style="width:115px ; "> <span>Select location </span></br>Jawaddi ludhiana...</p>
+                    <i class="bi bi-caret-down-fill "></i>
+  
+  
+               <div class="sub-menue-wrap " id="subMenu">
+                <div class="back bg-white">
+  
+                  <div class="sub-menue ">
+                    <div class="input-group ">
+                      <button class="btn" type="button" ><i class="bi bi-search"></i></button>
+                      <input type="text" class="form-control " placeholder="Enter Your Location" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  </div>
+                  </div>
+  
+                  <div class="body-sub-menu">
+  
+                    <a href="#" class="link-location">
+                      <div>
+                        <i class="bi bi-send"></i> &nbsp;New York, USA
+                      </div>
+                    </a>
+  
+                    <h6 class="bg-light header">Choose your country</h6>
+                      
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">Afghanistan</label>
+                        <input class="form-check-input me-1 " type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">India</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">USA</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">Australia</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">Japan</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                    <li class="list-item">
+                      <div>
+                        <label class="form-check-label" for="secondRadio">China</label>
+                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      </div>
+                    </li>
+                  </div>
+               </div>
+              </div>
+               
+               </div>
+  
+        </div>
+        
+        <div class="container p-0" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link active "aria-current="page" href="./searchPage.html"><i class="bi bi-search bii "></i> &nbsp;Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active "aria-current="page" href="./ofersPage.html"><button type="button" class="redBtn"><i class="bi bi-vinyl"></i>&nbsp;Offers</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active "aria-current="page" href="signInPage.html"><i class="bi bi-person "></i> &nbsp;Sign in</a>
+            </li>
+            <li class="nav-item nav-item-menu " onclick="togglMnu()">
+              <a class="nav-link active "  aria-current="page" href="#"> <img src="./images/girl-names-that-start-with-c-zz-221027-768b76.webp" class="nav-item-img" alt=""> &nbsp;Hi  Osahan&nbsp;<i class="bi bi-caret-down-fill "></i></a>
+              <div class="account " id="subMnu">
+                <div class="menue-group  ">
+                <div  class="sub-account">
+                 <a href="./myAccount.html">My account</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./deliverySupportPage.html">Delivery support</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./contactUsPage.html">Contact us</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./termOfUsePage.html">Term of user</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./privacyPolicyPage.html">Privacy policy</a>
+                </div>
+                <div  class="sub-account">
+                  <a href="./signInPage.html">Logout</a>
+                </div>
+              </div>
+            </div>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active " aria-current="page" href="./deliveryAddressPage.html"><i class="bi bi-cart2  "></i> &nbsp;Cart</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active  d-flex justify-content-center align-content-center" aria-current="page" href="#">
+                <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                  <span class="hamb-top"></span>
+                  <span class="hamb-middle"></span>
+                  <span class="hamb-bottom"></span>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+<section class="substitute-Nav">
+    <div class="sub-menue ">
+      <div class="header-substitute-Nav d-flex align-items-center ps-0 ">
+        <h4>Profile</h4>
+        <div class="d-flex justify-content-end ">
+          <li class="nav-item ">
+            <a class="nav-link active  d-flex justify-content-center align-content-center" aria-current="page" href="#">
+              <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+              </button>
+            </a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <div class="bar bg-danger" id="wrapper">
+    
+    <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+        <ul class="nav sidebar-nav">
+         <div class="sidebar-header">
+           <div class="sidebar-brand">
+             Askbootstrab
+           </div>
+         </div>
+           <li><a href="./main.html"><img src="./images/home-black.png"> Homepage</a></li>
+           <li><a href="myOrderPage.html"><img src="./images/menue.png" alt=""> My Orders</a></li>
+           <li class="dropdown">
+             <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"><img src="./images/pen.png" alt="">Authentication <span class="caret "></span></a>
+               <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                 <li><a href="./signInPage.html">Login</a></li>
+                 <li><a href="./signUpPage.html">Register</a></li>
+                 <li><a href="./forgotPasswordPage.html">Forgot Password</a></li>
+                 <li><a href="./verificationPage.html">Verification</a></li>
+                 <li><a href="./locationPage.html">Location</a></li>
+               </ul>
+             </li>
+           <li><a href="./favoritePage.html"><img src="./images/heart.png" alt=""> Favorites</a></li>
+           <li><a href="./trendingPage.html"><img src="./images/increase.png" alt=""> trending</a></li>
+           <li><a href="./mostPopularPage.html"><img src="./images/popular.png" alt=""> Most Popular</a></li>
+           <li><a href="./deliveryAddressPage.html"><img src="./images/menue.png" alt=""> Checkout</a></li>
+           <li><a href="./successfullPage.html"><img src="./images/successfal.png" alt=""> Successful</a></li>
+           <li><a href="./liveMapPage.html"><img src="./images/location.png" alt=""> Live Map</a></li>
+           <li class="dropdown">
+             <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"><img src="./images/person.png" alt=""> Profile <span class="caret"></span></a>
+               <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                 <li><a href="./myAccount.html">Profile</a></li>
+                 <li><a href="./deliverySupportPage.html">Delivery Support</a></li>
+                 <li><a href="./contactUsPage.html">Contact Us</a></li>
+                 <li><a href="./termOfUsePage.html">Terms of use</a></li>
+                 <li><a href="./privacyPolicyPage.html">Privacy & Policy</a></li>
+               </ul>
+             </li>
+             <li class="dropdown">
+               <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"><img src="./images/traingle.png" alt=""> Error <span class="caret"></span></a>
+                 <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                   <li><a href="./notFoundPage.html">Not Found</a></li>
+                   <li><a href="./MaintencePage.html">Maintence</a></li>
+                   <li><a href="./comingSoonPage.html">Coming Soon</a></li>
+                 </ul>
+               </li>
+               <li class="dropdown">
+                 <a href="#works" class="dropdown-toggle"  data-toggle="dropdown"><img src="./images/link.png" alt=""> Navigation Link Example <span class="caret"></span></a>
+                   <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                     <li><a href="#pictures">Link Example 1</a></li>
+                     <li><a href="#pictures">Link Example 2</a></li>
+                     <li><a href="#videos">Link Example 3</a></li>
+                     <li><a href="#books">Link Example 4</a></li>
+                   </ul>
+                 </li>
+           </ul>
+   </nav>
+ 
+   <nav class="navbar navbar-inverse fixed-bottom " id="sidebar-wrapper-footer" role="navigation">
+     <div class="sidebar-footer">
+       <div class="sidebar-brand-footer btn-group">
+         <button type="button" class="btn btn-light text-center d-block">
+           <img src="./images/home-black.png" alt="">
+           <p>Home</p>
+         </button>
+ 
+         <button type="button" class="btn btn-light">
+           <img src="./images/message.png" alt="">
+           <p>FAQ</p>
+         </button>
+ 
+         <button type="button" class="btn btn-light">
+           <img src="./images/phone.png" alt="">
+           <p>Help</p>
+         </button>
+       </div>
+     </div>
+       </nav>
+ </div>
+       
+
+
+<!----------------------------------myAccountPage---------------------------->
+<section class="myAccount">
+    <div class="collecter ">
+
+        <div class="right ">
+            <a href="./myAccount.html">
+                <div class="header">
+                    <div class="img"> 
+                       <img src="./images/girl2.jpg" style="height: 100%; width: 100%;"  alt="" srcset="">
+                    </div>
+                    <div >
+                        <h6 class="text-danger mb-1">Gurdeep Singh <i class="bi bi-check2-circle text-success" ></i></h6> 
+                        <p> iamoshan@gmail.com</p>
+                    </div>
+                </div>
+            </a> 
+
+            <div class="d-flex justify-content-between align-items-center bg-light" style="padding: 10px 20px;">
+                <p style="font-size: 13px; margin-bottom: 0px;">Accounts Credits</p>
+                <h5 class="text-danger mb-1 text-end">$52.25</h5> 
+            </div>
+
+            <div class="list">
+               <div>
+                <h6 class="mb-1">Payment Cards</h6> 
+                <p> Add a credit or debit card</p>
+               </div>
+               <div class="text-end d-flex align-items-center">
+                <i class="bi bi-chevron-right text-danger view-modal1" onclick="toggle()"></i>
+               </div>
+            </div>
+
+            <div class="list">
+                <div>
+                 <h6 class="mb-1">Address</h6> 
+                 <p> Add or remove a delivery address</p>
+                </div>
+                <div class="text-end text-danger d-flex align-items-center">
+                 <i class="bi bi-chevron-right text-danger view-modal1" onclick="toggle()"></i>
+                </div>
+             </div>
+
+             <div class="list">
+                <div>
+                 <h6 class="mb-1 text-danger">Refer Friends</h6> 
+                 <p class=" text-danger"> Get $10.00 FREE</p>
+                </div>
+                <div class="text-end text-danger d-flex align-items-center">
+                 <i class="bi bi-chevron-right text-danger view-modal2" onclick="toggle2()"></i>
+                </div>
+             </div>
+
+             <div class="list">
+                <div class="d-flex img ">
+                   <i class="bi bi-truck bg-danger"></i>
+                   <h6 class="h-100 d-flex align-items-center">Delivery Support</h6>
+                </div>
+                <div class="text-end text-danger d-flex align-items-center">
+                 <a href="./deliverySupportPage.html"><i class="bi bi-chevron-right text-danger"></i></a>
+                </div>
+             </div>
+
+             <div class="list">
+                <div class="d-flex img ">
+                    <i class="bi bi-telephone" style="background-color:rgb(238, 0, 115);"></i>
+                   <h6 class="h-100 d-flex align-items-center">Contact</h6>
+                </div>
+                <div class="text-end text-danger d-flex align-items-center">
+                 <a href="./contactUsPage.html"><i class="bi bi-chevron-right text-danger"></i></a>
+                </div>
+             </div>
+
+             <div class="list">
+                <div class="d-flex img ">
+                   <i class="bi bi-info-circle bg-success"></i>
+                   <h6 class="h-100 d-flex align-items-center">Term of use</h6>
+                </div>
+                <div class="text-end text-danger d-flex align-items-center">
+                  <a href="./termOfUsePage.html"><i class="bi bi-chevron-right text-danger"></i></a>
+                </div>
+             </div>
+
+             <div class="list">
+                <div class="d-flex img ">
+                   <i class="bi  bi-lock bg-warning"></i>
+                   <h6 class="h-100 d-flex align-items-center">Privacy policy</h6>
+                </div>
+                <div class="text-end text-danger d-flex align-items-center">
+                  <a href="./privacyPolicyPage.html"><i class="bi bi-chevron-right text-danger"></i></a>
+                </div>
+             </div>
+        </div>
+
+        
+        <div class="left termOfUse-left">
+                <h5 class="text-danger">Introduction</h5>
+                <p>Thanks for using our products and services ("Services"). The Services are provided by Pixeel Ltd . <br> ("Swiggiweb"), located at 153 Williamson Plaza, Maggieberg, MT 09514, England, United Kingdom.</p>
+                <p>By using our Services, you are agreeing to these terms. Please read them carefully.</p>
+
+                <h5 class="text-danger">1. Using our services</h5>
+                <p>You must follow any policies made available to you within the Services.</p>
+                <p>Don't misuse our Services. For example, don't interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct.</p>
+        
+                <h6 class="text-danger">A. Personal Data that we collect about you.</h6>  
+                <p>Personal Data is any information that relates to an identified or identifiable individual. The Personal Data that you provide directly to us through our Sites will be apparent from the context in which you provide <br> the data. In particular:</p>
+                <ul>
+                   <li>When you register for a Swiggiweb account we collect your full name, email address, and account log-in credentials.</li>
+                   <li>When you fill-in our online form to contact our sales team, we collect your full name, work email, country, and anything else you tell us about your project, needs and timeline.</li>
+                   <li>When you use the "Remember Me" feature of Swiggiweb Checkout, we collect your email address, payment card number, CVC code and expiration date.</li>
+                </ul>
+
+                <p>When you respond to Swiggiweb emails or surveys we collect your email address, name and any other information you choose to include in the body of your email or responses. If you contact us by phone, we will collect the phone number you use to call Swiggiweb. If you contact us by phone as a Swiggiweb User, we may collect additional information in order to verify your identity.</p>
+            
+                <h6 class="text-danger">B. Information that we collect automatically on our Sites.</h6>
+                <p>We also may collect information about your online activities on websites and connected devices over time and across third-party websites, devices, apps and other online features and services. We use Google Analytics on our Sites to help us analyze Your use of our Sites and diagnose technical issues.</p>
+                <p>To learn more about the cookies that may be served through our Sites and how You can control our use of cookies and third-party analytics, please see our Cookie Policy.</p>
+
+                <h5 class="text-danger">2. Privacy and copyright protection</h5>
+                <p>Swiggiweb's privacy policies explain how we treat your personal data and protect your privacy when you use our Services. By using our Services, you agree that Swiggiweb - Online Food Ordering Website Template can use such data in accordance with our privacy policies.</p>
+                <p>We respond to notices of alleged copyright infringement and terminate accounts of repeat infringers according to the process set out in the U.S. Digital Millennium Copyright Act.</p>
+                <p>We provide information to help copyright holders manage their intellectual property online. If you think somebody is violating your copyrights and want to notify us, you can find information about submitting notices and Swiggiweb's policy about responding to notices in 
+                    <a href="#"><span>our Help Center. </span> </a></p>
+
+                <h5 class="text-danger">3. Your content in our services</h5>
+                <p>Some of our Services allow you to upload, submit, store, send or receive content. You retain ownership of any intellectual property rights that you hold in that content. In short, what belongs to you stays yours.</p>
+                <p>When you upload, submit, store, send or receive content to or through our Services, you give Swiggiweb (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works (such as those resulting from translations, adaptations or other changes we make so that your content works better with our Services), communicate, publish, publicly perform, publicly display and distribute such content.</p>
+            
+            </div>
+    </div>
+</section>
+
+
+
+<!------------------------footer--------------------->
+<section class="footer">
+    <div class="container-footer">
+      <div class="row-footer">
+  
+         <div class="col-footer" style="grid-column: span 2;">
+          <div style=" width: 65px;">
+          <img src="./images/spoon-and-a-fork-in-a-circle-640w.png " class="logo bg-white"> 
+          </div>
+          <Div class="content-footer ">
+          <h5>About Us</h5>
+          <p>some short text about company like you might <br> remember the Dell computer commercials in <br> which a youth report</p>
+          <span>
+            <a href="" ><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-youtube"></i></a>
+            <a href=""><i class="bi bi-twitter"></i></a>
+          </span>
+          </Div>
+         </div>
+  
+         <div class="col-footer">
+          <Div class="content-footer ">
+            <h5>Error Pages</h5>
+            <a href="./notFoundPage.html">Not found</a><br>
+            <a href="./MaintencePage.html">Maintence</a><br>
+            <a href="./comingSoonPage.html">Coming Soon</a>
+            </Div>
+         </div>
+  
+         <div class="col-footer">
+          <Div class="content-footer ">
+            <h5>Services</h5>
+            <a href="./deliverySupportPage.html">Delivery Support</a><br>
+            <a href="./contactUsPage.html">Contact Us</a><br>
+            <a href="./termOfUsePage.html">Terms of use</a><br>
+            <a href="./privacyPolicyPage.html">Privace policy</a>
+            </Div>
+         </div>
+  
+         <div class="col-footer">
+          <Div class="content-footer ">
+            <h5>For users</h5>
+            <a href="./signInPage.html">User login</a><br>
+            <a href="./signUpPage.html">User register</a><br>
+            <a href="/forgotPasswordPage.html">Forgot Password</a><br>
+            <a href="./myAccount.html">Account Setting</a>
+            </Div>
+         </div>
+  
+         <div class="col-footer">
+          <Div class="content-footer ">
+            <h5>More Pages</h5>
+            <a href="./trendingPage.html">Trending</a><br>
+            <a href="./mostPopularPage.html">Most Popular</a><br>
+            <a href="./menuePage.html">Resturant Details</a><br>
+            <a href="./favoritePage.html">Favoraits</a>
+            </Div>
+         </div>
+      </div>
+  
+      <hr style="color: rgb(119, 118, 118);">
+  
+      <div class="row-footer">
+  
+        <div class="col-footer">
+          <Div class="content-footer ">
+            <h5>Countries</h5>
+            <a href="#">India</a><br>
+            <a href="#">Indonesia</a><br>
+            <a href="#">Ireland</a><br>
+            <a href="#">Italy</a><br>
+            <a href="#">Lebanon</a>
+            </Div>
+        </div>
+  
+        <div class="col-footer">
+            <Div class="content-footer ">
+              <br>
+            <a href="#">Malaysia</a><br>
+            <a href="#">New Zelanda</a><br>
+            <a href="#">Philippines</a><br>
+            <a href="#">Poland</a><br>
+            <a href="#">Partugal</a>
+            </Div>
+        </div>
+  
+          <div class="col-footer">
+            <Div class="content-footer ">
+              <br>
+            <a href="#">Australia</a><br>
+            <a href="#">Brasil</a><br>
+            <a href="#">Canada</a><br>
+            <a href="#">Chile</a><br>
+            <a href="#">Czech Republic</a>
+          </Div>
+          </div>
+  
+          <div class="col-footer">
+            <Div class="content-footer ">
+              <br>
+            <a href="#">turkey</i></a><br>
+            <a href="#">UAE</a><br>
+            <a href="#">United Kingdom</a><br>
+            <a href="#">United States</a><br>
+            <a href="#">Sri Lanka</a>
+          </Div>
+          </div>
+  
+            <div class="col-footer">
+              <Div class="content-footer ">
+                <br>
+              <a href="#">Qatar</i></a><br>
+              <a href="#">Singapora</a><br>
+              <a href="#">Slovakia</a><br>
+              <a href="#">South Africa</a><br>
+              <a href="#">Green Land</a>
+            </Div>
+            </div>
+  
+              <div class="col-footer">
+                <Div class="content-footer ">
+                  <br>
+                  <a href="#">Pakistan</i></a><br>
+                  <a href="#">Bangladesh</a><br>
+                  <a href="#">Bhutaan</a>
+                  <a href="#">Nepal</a>
+               </Div>
+             </div>
+            </div>
+    </div>
+  <div class="rights">
+    <div class="container-rights">
+      <p><i class="bi bi-c-circle"></i> &nbsp; 2020 Company All rights reserved</p>
+      <div class="app-stors">
+  
+        <div class="app-btn ">
+         <a href="#"> <img  src="./images/App_Store.png" alt=""></a>
+        </div>
+  
+        <div class="app-btn">
+         <a href="#"><img  src="./images/google-play.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  
+
+<section class="simplefooter">
+    <div class="right d-flex" >
+      <a href="./main.html">
+        <button type="button" class="bg-light">
+          <img src="./images/home-red.png" alt="">
+          <p class="text-danger" style="font-size: 12px;">Home</p>
+        </button>
+      </a>
+       
+      <a href="./trendingPage.html">
+        <button type="button">
+          <img src="./images/location.png" alt="">
+          <p>Trending</p>
+        </button>
+      </a>
+    </div>
+
+    <div class="middle ">
+      <a href="./deliveryAddressPage.html">
+        <button type="button" >
+          <img src="./images/shopping-card.png" style="width: 35px; height: 35px;"  alt="">
+        </button>
+      </a>
+    </div>
+
+    <div class="left  d-flex">
+      <a href="./favoritePage.html">
+        <button type="button" >
+          <img src="./images/heart.png"  alt="">
+          <p>Favorite</p>
+        </button>
+      </a>
+
+      <a href="./myAccount.html">
+        <button type="button" >
+          <img src="./images/person.png" alt="">
+          <p>Profile</p>
+        </button>
+      </a>
+</div>
+</section>
+
+
+<div class="popup">
+    <div class="popurBody">
+      <div class="links ">
+        <h5>Add Delivery Address</h5>
+        <div class="text-end "><img src="./images/close.png" class="close"></div>
+      </div>
+      <div class="content mb-3 mt-2">
+        <div class="form pt-1">
+          <div class="form-text">
+            <label for="exampleDataList" class="form-label p-0">Delivery Area</label>
+            <div class=" d-flex justify-content-center">
+                <input type="number" id="button-addon1" class="form-control"  placeholder="Delivery Area">
+                <button style="width: max-content;" type="button" id="button-addon2" class="btn btn-outline-secondary btn-code"><i class="bi bi-credit-card"></i></button>
+            </div>
+          </div>
+  
+          <div class="form-text">
+            <div>
+              <label for="exampleDataList" class="form-label  p-0">Complete Address</label>
+              <input type="number"  class="form-control" id="exampleFormControlInput1" placeholder="Complete Address e.g. house number,street name,land mark">
+            </div>
+          </div>
+        
+          <div class="form-text">
+            <label for="exampleDataList" class="form-label p-0">Delivery Instructions</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Delivery Instructions e.g. Opposite Gold Souk Mall">
+          </div>
+  
+          <div class="form-text mb-0">
+            <label for="exampleDataList" class="form-label p-0">Nickname</label>
+          </div>
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group" >
+  
+              <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+              <label class="btn btn-outline-secondary" for="vbtn-radio1">Home</label>
+  
+              <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
+              <label class="btn btn-outline-secondary" for="vbtn-radio2">Work</label>
+  
+              <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off">
+              <label class="btn btn-outline-secondary" for="vbtn-radio3">Other</label>
+            </div>
+  
+        </div>
+      </div>
+      <div class="popup-footer">
+      <button type="button" onclick="btnClose();" >Close</button>
+      <button type="button" class="btn-danger" >Save Changes</button>
+      </div>
+    </div>
+  </div>
+
+<div class="popup invitePopper">
+<div class="popurBody invitePopperBody pb-4">
+    <div class="links border-0">
+    <h5>Invite</h5>
+    <div class="text-end "><img src="./images/close.png" class="close2"></div>
+    </div>
+    <div class="content d-flex align-items-center">
+    <i class="bi bi-plus-lg text-danger"></i>
+    <p class="text-danger mb-0">Send an invite to a friend</p>
+    </div>
+
+    <div class="content d-flex align-items-center mt-3">
+    <p style="font-size: 12px;"> invited friends (2)</p>
+    </div>
+    
+    <div class="header mb-0">
+    <div class="img">   
+        <img src="./images/girl1.jpg" style="height: 100%; width: 100%;" alt="" srcset=""> 
+    </div>
+    <div >
+        <h6 class="mb-0" style="font-size: 12px;">Gurdeep Singh</h6> 
+        <p> iamoshan@gmail.com</p>
+    </div>
+    </div>
+
+    <div class="header mt-0">
+        <div class="img"> 
+            <img src="./images/girl4.jpg" style="height: 100%; width: 100%;" alt="" srcset="">
+        </div>
+        <div >
+            <h6 class="mb-0" style="font-size: 12px;">Gurdeep Singh</h6> 
+            <p> iamoshan@gmail.com</p>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+<script >
+
+const viewBtn1 = document.querySelector(".view-modal1");
+const viewBtn2 = document.querySelector(".view-modal2");
+
+    popup = document.querySelector(".popup"),
+    invitePopper = document.querySelector(".invitePopper"),
+
+    popupBody = document.querySelector(".popurBody")
+    invitePopperBody = document.querySelector(".invitePopperBody")
+
+    close = popup.querySelector(".close"),
+    close2 = invitePopper.querySelector(".close2")
+    
+    function toggle(){
+    popup.style.display='block';
+    popupBody.classList.toggle("show");
+    }
+    
+    function btnClose(){
+    viewBtn1.click();
+    popup.style.display='none';
+    }
+
+    close.onclick = ()=>{
+    viewBtn1.click();
+    popup.style.display='none';
+    }
+
+    function toggle2(){
+    invitePopper.style.display='block';
+    invitePopperBody.classList.toggle("show");
+    }
+
+    close2.onclick = ()=>{
+    viewBtn2.click();
+    invitePopper.style.display='none';
+    }
+
+</script>
+
+<script src="./js/script.js"></script>
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
+  
